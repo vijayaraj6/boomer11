@@ -1,7 +1,4 @@
-/****************************************** 
-	File Name: custom.css 
-/******************************************/
-/** ADD YOUR AWESOME CODES HERE **/
+
  * {
     font-family: 'Poppins', sans-serif;
 }
@@ -220,6 +217,7 @@
      width: 100%;
      min-height: auto;
      background: #fff;
+     border-radius: 10px;
 }
  .main-menu-section {
      float: right;
@@ -1478,7 +1476,7 @@ body section#contant .post-info span h4 {
      padding: 10px 20px;
      font-size: 15px;
      border-radius: 50px;
-     margin-top: 5px;
+     margin-bottom: 25px;
      font-weight:500;
      transition:ease all 1s;
 }
@@ -1776,7 +1774,7 @@ body section#contant .post-info span h4 {
      border-bottom: none;
 }
 /** responsive **/
- @media (max-width:768px) {
+ @media (max-width:1000px) {
      .header-top .right_top_section {
          display: none;
     }
@@ -1824,7 +1822,7 @@ body section#contant .post-info span h4 {
          width: 100%;
          min-height: auto;
          background: #fff;
-         border-radius: 0;
+         border-radius: 10px;
          padding: 0 20px;
     }
      .main-menu-section .navbar.navbar-inverse {
